@@ -1,0 +1,1920 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-contaier{
+  width: 100vw;
+  height: auto;
+}
+
+.container {
+  width: 100vw;
+  height: 125px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 0;
+  position: fixed;
+  border-bottom: 1px solid black;
+}
+
+.div16{
+  margin-left: 25px;
+}
+.one {
+  height: 80px;
+  width: 200px;
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.two {
+  width: 515px;
+  height: 80px;
+  display: flex;
+}
+
+.div1 {
+  width: 103px;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text1 {
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  color: white;
+  transition: 0.5s;
+}
+
+.text1:hover {
+  color: #ff4612;
+}
+.three {
+  width: 220px;
+  height: 80px;
+  background-color: #24315e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.three:hover {
+  background-color: white;
+}
+
+.text2 {
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  transition: 0.5s;
+}
+.text2:hover {
+  color: #24315e;
+}
+
+.section1 {
+  width: 100vw;
+  height: 1000px;
+  background-image: url(https://marketifythemes.net/html/trito/img/hero/1.jpg);
+  display: flex;
+}
+
+.div2 {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.gornji {
+  width: 490px;
+  height: 380px;
+
+  margin-top: 270px;
+  display: flex;
+  flex-direction: column;
+}
+.nmgvise {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+}
+.donji {
+  width: 400px;
+  height: 100px;
+
+  margin-top: 50px;
+  margin-right: 79px;
+}
+.text4 {
+  color: #24315e;
+  font-size: 22px;
+  font-style: italic;
+}
+.div3 {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.hi {
+  font-size: 45px;
+  color: #24315e;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+.name {
+  font-size: 75px;
+  color: #24315e;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.text3 {
+  font-size: 26px;
+  color: #24315e;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+}
+.atag {
+  margin-left: 27px;
+  font-size: 20px;
+  color: #24315e;
+  text-decoration: underline;
+  transition: 1s;
+}
+.atag:hover {
+  text-decoration: none;
+}
+.btn1 {
+  height: 100%;
+  color: #24315e;
+  border: #24315e 1px solid;
+  width: 180px;
+  font-size: 20px;
+  margin-left: 10px;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.btn1:hover {
+  color: white;
+  background-color: #24315e;
+}
+.clients {
+  width: 100vw;
+  height: 320px;
+  background-color: #24315e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text5::before {
+  content: "--------";
+}
+
+.text5::after {
+  content: "--------";
+}
+
+.divup {
+  width: 100%;
+  height: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.text5 {
+  color: white;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+.divdown {
+  width: 70%;
+  height: 60%;
+  display: flex;
+}
+.client1 {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.img2 {
+  opacity: 0.5;
+  color: white;
+  transition: 0.6s;
+  cursor: pointer;
+  height: 100px;
+}
+
+.img2:hover {
+  opacity: 1;
+}
+.client2 {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.img8 {
+  opacity: 0.5;
+  color: white;
+  transition: 0.6s;
+  cursor: pointer;
+  height: 100px;
+  padding-right: 40px;
+}
+
+.img8:hover {
+  opacity: 1;
+}
+
+.img9 {
+  opacity: 0.5;
+  color: white;
+  transition: 0.6s;
+  cursor: pointer;
+  height: 70px;
+  padding-top: 15px;
+}
+
+.img9:hover {
+  opacity: 1;
+}
+
+.img10 {
+  opacity: 0.5;
+  color: white;
+  transition: 0.6s;
+  cursor: pointer;
+  height: 200px;
+  padding-left: 30px;
+}
+
+.img10:hover:hover {
+  opacity: 1;
+}
+
+.client3 {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.client4 {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.simun {
+  height: 310px;
+  width: 100vw;
+  background-color: #3d4970;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dedication {
+  height: 100%;
+  width: 25%;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.smart {
+  height: 100%;
+  width: 25%;
+}
+
+.intelligence {
+  height: 100%;
+  width: 25%;
+}
+.marko {
+  width: 80%;
+  height: 60%;
+  border-right: 1px white solid;
+  display: flex;
+  flex-direction: column;
+}
+.marko2 {
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+}
+
+.marko3 {
+  width: 100%;
+  height: 70%;
+}
+.text6 {
+  font-size: 25px;
+  color: #c5c8d4;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.bulb {
+  height: 100%;
+  width: 30%;
+  background-color: #3d4970;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.naslov1 {
+  height: 100%;
+  width: 70%;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.naslov1 {
+  font-size: 31px;
+  color: white;
+  margin-left: 5px;
+}
+.smart {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.intelligence {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.tabela {
+  width: 100vw;
+  height: 710px;
+  background-color: #3d4970;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamb{
+
+  display: none;
+}
+
+
+.daddy {
+  width: 70%;
+  height: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  height: 85%;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  height: 100%;
+  width: 60%;
+  background-image: url(https://marketifythemes.net/html/trito/img/skills/1.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ante {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.milan {
+  width: 100%;
+  height: 49%;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.vuleta2 {
+  width: 90%;
+  height: 45%;
+  text-align: left;
+  font-size: 25px;
+  color: #c5c8d4;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  line-height: 1.5;
+}
+
+.kid {
+  width: 70%;
+  height: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.old {
+  width: 95%;
+  height: 29%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  justify-content: space-between;
+}
+.middle {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.young {
+  width: 90%;
+  height: 29%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.josip {
+  height: 80%;
+  width: 31%;
+  background-color: white;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+
+.matej {
+  height: 80%;
+  width: 27%;
+  background-color: white;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+
+.silvio {
+  height: 80%;
+  width: 31%;
+  background-color: white;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+
+.tanja {
+  height: 80%;
+  width: 30%;
+  background-color: white;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+
+.sara {
+  height: 80%;
+  background-color: white;
+  width: 28%;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+
+.tina {
+  height: 80%;
+  background-color: white;
+  width: 30%;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+
+.baka {
+  height: 80%;
+  width: 30%;
+  background-color: white;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+.dido {
+  height: 80%;
+  width: 30%;
+  background-color: white;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+
+.baka2 {
+  height: 80%;
+  width: 28%;
+  background-color: white;
+  border: 2px solid #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #3d4970;
+  font-weight: bold;
+}
+
+.percent {
+  width: 100vw;
+  height: 260px;
+  background-color: #3d4970;
+  display: flex;
+  justify-content: center;
+}
+.div4 {
+  width: 70%;
+  height: 45%;
+
+  display: flex;
+}
+
+.div5 {
+  width: 33%;
+  height: 100%;
+
+  display: flex;
+}
+
+.div6 {
+  width: 33%;
+  height: 100%;
+
+  display: flex;
+}
+.div7 {
+  width: 33%;
+  height: 100%;
+
+  display: flex;
+}
+
+.kid2 {
+  height: 100%;
+  width: 40%;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text8 {
+  font-family: sans-serif;
+  font-size: 27px;
+  color: #c5c8d4;
+  font-weight: 600;
+  margin-left: 40px;
+}
+.kid3 {
+  height: 100%;
+  width: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kid4 {
+  height: 100%;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.kid5 {
+  height: 100%;
+  width: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 27px;
+  color: #c5c8d4;
+  font-weight: 600;
+}
+
+.kid6 {
+  height: 100%;
+  width: 45%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.kid7 {
+  height: 100%;
+  width: 55%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 27px;
+  color: #c5c8d4;
+  font-weight: 600;
+}
+.yellowdiv {
+  width: 100vw;
+  height: 870px;
+  background-image: url(https://marketifythemes.net/html/trito/img/about/background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lijevi {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img3 {
+ width: 40vh;
+ height: auto;
+}
+
+.desni {
+  height: 80%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+.div8 {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #ff4612;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+}
+.div9 {
+  width: 100%;
+  height: 36%;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #3d4970;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.div10 {
+  width: 100%;
+  height: 21%;
+
+  font-size: 24px;
+  color: #505a7e;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.div11 {
+  width: 100%;
+  height: 15%;
+
+  font-size: 24px;
+  color: #505a7e;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.div12 {
+  width: 100%;
+  height: 18%;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.btn2 {
+  height: 65%;
+  color: white;
+  border: #24315e 1px solid;
+  width: 180px;
+  font-size: 20px;
+  margin-left: 10px;
+  background-color: #3d4970;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-left: 0;
+}
+.btn2:hover {
+  color: #3d4970;
+  background-color: white;
+}
+
+.animation {
+  width: 100vw;
+  height: 600px;
+  background-color: #3d4970;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div18 {
+  height: 80%;
+  width: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div19 {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div20 {
+  height: 80%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+.div21 {
+  width: 100%;
+  height: 25%;
+  margin-left: 23px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-weight: 600;
+}
+.div22 {
+  width: 100%;
+  height: 60%;
+  margin-left: 23px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #c5c8d4;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.div23 {
+  height: 15%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.div24 {
+  height: 50%;
+  width: 100%;
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 23px;
+}
+.div25 {
+  height: 50%;
+  width: 100%;
+  font-size: 24px;
+  color: #c5c8d4;
+  font-family: sans-serif;
+  margin-left: 23px;
+}
+.img4 {
+  width: 85%;
+  height: 85%;
+  margin-right: 20px;
+}
+
+.options {
+  width: 100vw;
+  height: 1100px;
+  background-color: #3d4970;
+  display: flex;
+  flex-direction: column;
+}
+
+.gore {
+  width: 100%;
+  height: 48%;
+
+  margin-bottom: 20px;
+  display: flex;
+}
+.dole {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+}
+.div13 {
+  height: 100%;
+  width: 48%;
+  background-color: brown;
+  margin-right: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.div14 {
+  height: 100%;
+  width: 50%;
+  background-color: darkorange;
+
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  z-index: 2;
+}
+.div15 {
+  height: 100%;
+  width: 33%;
+
+  margin-right: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  z-index: 2;
+  position: relative;
+}
+.divpink3 {
+  position: absolute;
+  height: 120px;
+  width: 470px;
+  background-color: #a586ff;
+  bottom: 35px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.text10 {
+  margin-left: 15px;
+}
+.div16 {
+  height: 100%;
+  width: 33%;
+
+  margin-right: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.div17 {
+  height: 100%;
+  width: 33%;
+
+  overflow: hidden;
+  position: relative;
+}
+.img5 {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+.img5:hover {
+  transform: scale(1.1);
+}
+.img6 {
+  width: 570px;
+  height: 545px;
+  transition: transform 0.5s ease;
+}
+.img6:hover {
+  transform: scale(1.1);
+}
+.divpink {
+  position: absolute;
+  height: 120px;
+  width: 600px;
+  background-color: #a586ff;
+  bottom: 35px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  left: 0;
+}
+.divpink2 {
+  position: absolute;
+  height: 120px;
+  width: 600px;
+  background-color: #a586ff;
+  bottom: 35px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.container2 {
+  background-color: #3d4970;
+  width: 100vw;
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div26 {
+  width: 70%;
+  height: 90px;
+  background-color: #3d4970;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #ff4612;
+  font-weight: bold;
+}
+.div27 {
+  width: 70%;
+  height: 200px;
+  background-color: #3d4970;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.div28 {
+  width: 70%;
+  height: 550px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ques1 {
+  width: 100%;
+  height: 18%;
+  background-color: #24315e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.div30 {
+  height: 43%;
+  width: 480px;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 40px;
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.div31 {
+  height: 43%;
+  width: 40px;
+  background-color: mediumaquamarine;
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container3 {
+  width: 100vw;
+  height: 410px;
+  background-image: url(https://marketifythemes.net/html/trito/img/hero/1.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div32 {
+  height: 27%;
+  width: 400px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  line-height: 1.2;
+  font-size: 45px;
+  font-family: sans-serif;
+  color: #24315e;
+  font-weight: b;
+}
+.div33 {
+  width: 400px;
+  height: 35%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myLinks{
+  display: none;
+}
+
+.icon{
+  display: none;
+}
+.btn3 {
+  width: 255px;
+  height: 78px;
+  background-color: white;
+  border: 2px solid #24315e;
+  font-family: sans-serif;
+  color: #24315e;
+  font-size: 19px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn3:hover {
+  background-color: #24315e;
+  color: white;
+}
+
+.div34 {
+  width: 100%;
+  height: 200px;
+  background-image: url(https://marketifythemes.net/html/trito/img/about/background.jpg);
+}
+.upperdiv {
+  width: 100%;
+  height: 30%;
+  background-image: url(https://marketifythemes.net/html/trito/img/about/background.jpg);
+  display: flex;
+  justify-content: center;
+}
+.div35 {
+  height: 100%;
+  width: 25%;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.text9 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #24315e;
+}
+.lowerdiv {
+  width: 100%;
+  height: 40%;
+  background-image: url(https://marketifythemes.net/html/trito/img/about/background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+.div36 {
+  height: 140px;
+  width: 140px;
+  background-color: orangered;
+  margin: 25px;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* dio koda*/
+
+.ques1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.div30 {
+  flex-grow: 1;
+}
+
+.div31 {
+  width: 20px;
+  text-align: center;
+}
+
+.sliding-div {
+  max-height: 0;
+  overflow: hidden;
+  background-color: pink;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  padding: 0 20px;
+}
+
+.sliding-div.expanded {
+  max-height: 100px; /* Prilagodite prema visini vašeg sadržaja */
+  padding: 20px;
+}
+
+.container {
+  transition: background-color 0.5s ease, border 0.5s ease;
+}
+
+.three {
+  transition: background-color 0.5s ease;
+}
+
+.text2 {
+  transition: color 0.5s ease;
+}
+
+.ques1{
+  background-color: #24315e;
+}
+
+.sliding-div{
+  background-color: #24315e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 15px;
+  height: 100px;
+}
+
+@media screen and (max-width: 1024px){
+  .section1{
+      width: auto;;
+      padding: 0;
+      height: 800px;
+  }
+
+  .div2{
+      height: 100%;
+      width: 50%;
+      margin-left: 70px;
+  }
+
+  .hi{
+      font-size: 25px;
+      margin-bottom: 0;
+  }
+  .name{
+      font-size: 45px;
+  }
+  .text3{
+      font-size:30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0;
+  }
+  .div3{
+      width: 70%;
+      height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+  }
+
+ 
+  .img{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      margin-bottom: 0;
+      margin-bottom: 10px;
+  }
+
+  .clients{
+      width: 100%;
+      height: 750px;
+  }
+  .divup{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10%;
+      margin-bottom: 20px;
+  }
+
+  .divdown{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+ .client1{margin-bottom: 15px;
+}
+.simun{
+  width: 100%;
+}
+
+.tabela{
+ width: 100%;
+ height: 1100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.daddy{
+ display: flex;
+ flex-direction: column;
+ height: 90%;
+}
+
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ante{
+ margin-left: 70px;
+ font-size: 30px;
+ margin-bottom: 25px;
+
+}
+
+.milan{
+  display: flex;
+ justify-content: center;
+  height: 50%;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.vuleta2{
+  margin-bottom: 25px;
+}
+
+.kid{
+  width: 75%;
+  height: 75%;
+}
+.percent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.kid2{
+  font-size: 45px;
+}
+.text8{
+  font-size: 20px;
+  margin-left: 20px;
+}
+.kid4{
+  font-size: 45px;
+  margin-left: 20px;
+}
+.kid6{
+  font-size: 45px;
+  margin-left: 15px;
+}
+.text88{
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+.container2{
+  width: 100%;
+}
+.container3{
+  width: 100%;
+}
+.animation{
+  width: 100%;
+}
+
+.div18{
+  width: 90%;
+}
+.div19{
+  height: 90%;
+
+}
+.div20{
+  height: 90%;
+}
+.div21{
+  font-size: 28px;
+}
+.yellowdiv{
+  width: 100%;
+  height: 1150px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.div8{
+  margin-left: 150px;
+  font-size: 27px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.div9{
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.div10{
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.div11{
+  line-height: 1;
+}
+.div12{
+  margin-left: 120px;
+}
+.options{
+  width: 100%;
+  height: 2500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gore{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.dole{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+ 
+  
+}
+.div13{
+  margin-bottom: 30px;
+  width: 60%;
+  margin-bottom: 0;
+}
+
+.divpink{
+  position: absolute;
+  height: 90px;
+  width: 610px;
+  background-color: #a586ff;
+  bottom: 0;
+}
+.divpink2{
+  position: absolute;
+  height: 90px;
+  width: 600px;
+  background-color: #a586ff;
+  bottom: 10px;
+}
+.div14{
+  margin-bottom: 20px;
+  width: 60%;
+  margin-right: 11px;
+  background-color: #3D4970;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.img5{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.div15{
+padding-left: 200px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.divpink3{
+  position: absolute;
+  height: 90px;
+  width: 630px;
+  background-color: #a586ff;
+  bottom: 0;
+  margin-bottom: 200;
+}
+.div16{
+  padding-left: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.img66{
+  opacity: 0;
+}
+.div17{
+  display: none;
+}
+
+
+}
+
+@media (max-width:768px){
+  .hamb{
+    display: flex;
+  }
+  #container{
+    background-color:#3D4970;
+    width: 100%;
+    height:60px;
+  }
+  .one{
+    height: 20px;
+  }
+
+  .two{
+    display: none;
+  }
+
+  .three{
+    display: none;
+  }
+
+  .main-contaier{
+    height: 100px;
+  }
+
+  .section1{
+    height: 500px;
+  }
+
+  .clients{
+    height: 200px;
+  }
+
+  .simun{
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+
+  .dedication{
+    width: 95%;
+    margin-right: 60px;
+    margin-bottom: 40px;
+  }
+
+  .smart{
+    width: 95%;
+    margin-right: 60px;
+    margin-bottom: 40px;
+
+
+  }
+
+  #myLinks{
+    display: flex;
+  }
+  
+  .icon{
+    display: flex;
+  }
+  .tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left{
+    margin-right: 70px;
+   width: 65%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+  .intelligence{
+    width: 95%;
+    margin-right: 60px;
+    margin-bottom: 40px;
+  }
+  .milan{
+    width: 100%;
+    margin-left:35%;
+  }
+
+  .gornji{
+    height: auto;
+    margin-left: 150px;
+    overflow: hidden;
+  }
+  .donji{
+    margin-left: 150px;
+    margin-bottom: 200px;
+  }
+
+  .vuleta2{
+    text-align: center;
+    width: 340px;
+    margin-left: 40%;
+    height: auto;
+  }
+  .right{
+    width: 340px;
+  }
+
+  .percent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .div4{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .divdown{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .text6{
+    font-size: 20px;
+  }
+
+  .naslov1{
+    font-size: 25px;
+  }
+  .img2{
+    width: 90px;
+    height: 50px;
+  }
+  .img8{
+    width: 90px;
+    height: 50px;
+  }
+  .img9{
+    width: 90px;
+    height: 50px;
+  }
+  .div3{
+    height: 40%;
+    width: 40%;
+    background-image: url(https://marketifythemes.net/html/trito/img/hero/avatar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+    .div2{
+      margin-right: 130px;
+      margin-bottom:150px;
+    }
+    .section1{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #man{
+      display: none;
+      width: 100%;
+    }
+  
+  
+      .div15{
+        width: 85%;
+        background-image: url(https://www.mci.edu/images/News_Studiengänge/News_IRO/2023/Summer_School_ZSEM/campus_crop.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 11px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+      }
+
+
+      #divpink3{
+        width: 100%;
+        margin-left: -200px;
+      }
+      
+      .img6{
+        display: none;
+      }
+
+      .divpink2{
+
+        width: 100%;
+      }
+
+
+      .divpink{
+        width: 100%;
+      }
+
+      .div30{
+        font-size: 17px;
+      }
+
+      .div31{
+        width: 70px;
+        margin-left: 10px;
+      }
+
+      .div27{
+        font-size: 40px;
+        text-align: center;
+      }
+      .div26{
+        font-size: 25px;
+      }
+      .img3 {
+        width: 40vw;
+        height: 100%;
+      }
+
+
+      .gore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .div13{
+        width: 85%;
+        background-image: url(https://statusav.com/wp-content/uploads/2018/12/shutterstock_735210073-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+      }
+
+
+      .div16{
+        width: 85%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+        background-image: url(https://notra.ba/images/2023-3/IMG_1453.jpg);
+      }
+
+      
+
+      .div14{
+        width: 85%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 11px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        background-image: url(https://media.licdn.com/dms/image/D5612AQGJjjcQ3_ENgg/article-cover_image-shrink_720_1280/0/1679690919049?e=2147483647&v=beta&t=D4mylTGyapqgAYc4SqH9FmheOx8WxonpTdwsla2vagM);
+
+      }
+
+      .img5{
+        display: none;
+      }
+      .dole{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .desni{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+     
+      .nmgvise{
+        margin-bottom: 60px;
+      }
+
+      .div18{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .div20{
+        text-align: center;
+        height: auto;
+        margin-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .div6,.div7,.div5{
+        flex-direction: column;
+      }
+
+      .animation{
+        height: auto;
+      }
+
+      .div4{
+        display: flex;
+        justify-content:space-around;
+      }
+      .div5,.div6,.div7{
+        margin-right: 20px;
+      }
+      .div8{
+        margin-right: 130px;
+      }
+
+      .div9{
+        text-align: center;
+        font-size: 50px;
+      }
+
+      .div10,.div11,.div12{
+        text-align: center;
+        margin-bottom: 20px;
+        height: auto;
+      }
+
+      .div12{
+        margin-top: 20px;
+        margin-right: 90px;
+        height:70px;
+      }
+
+      .lijevi{
+        width:60%;
+      }
+
+      .desni{
+        height: auto;
+      }
+
+      .yellowdiv{
+        height: auto;
+      }
+      .divpink3{
+        width: 100%;
+        margin-left: -200px;
+      }
+
+      .man{
+        height: 100px;
+        width: 60px;
+      }
+}
+
+
